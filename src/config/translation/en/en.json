@@ -1,0 +1,11 @@
+{
+    "translation" :{
+        "Boutique" : "Shop",
+        "Se déconnecter" : "Disconnect",
+        "Se connecter" : "Login",
+        "Favoris":"favourites",
+        "Inscription": "Register",
+        "Panier":"Cart",
+        "Mes films":"My movies"
+    }
+}
