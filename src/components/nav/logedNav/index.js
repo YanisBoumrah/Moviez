@@ -87,7 +87,8 @@ export default LogedNav;
 
 const StyledButton = styled.button`
     border:none;
-    font-family:Nunito;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
     background:#3D3939;
     color:#58DD94;
     font-weight:bold;
@@ -257,7 +258,9 @@ const StyledSpanBurgerLine = styled.span`
 `
 
 const StyledP = styled.div`
-font-family:Nunito;
-color:#58DD94
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+color:#58DD94;
+font-size: 1.2rem;
 `
 

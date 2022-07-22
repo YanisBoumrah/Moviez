@@ -114,6 +114,7 @@ const MainContainer = styled.div`
   width:100%;
   height:94vh;
   display: flex;
+  align-items: center;
   justify-content: center;
   padding-top:100px;
   ${media.phone}{
@@ -127,15 +128,15 @@ const MainContainer = styled.div`
 `
 
 const StyledImg = styled.img`
-     width:100px;
-     height:50px;
+     width:200px;
+     height:100px;
      margin-bottom:20px;
 `
 
 const FormContainer = styled.div`
     padding-top:30px;
-    width:300px;
-    height:300px;
+    width:350px;
+    height:400px;
     background:#3D3939;
     display:flex;
     justify-content:center;
@@ -146,13 +147,13 @@ const FormContainer = styled.div`
 const StyledInput = styled.input`
       width:80%;
       height:30px;
-      border-radius:4px;
+      border-radius:2px;
       margin-bottom:13px;
       border-style:none;
 `
 
 const StyledButton = styled.button`
-margin-top:20px;
+    margin-top:20px;
     width:70%;
     height:30px;
     color:white;
@@ -166,7 +167,7 @@ const StyledDiv = styled.div`
     width:250px;
     height:100%;
     display:flex;
-    aligh-items:center;
+    align-items:center;
     flex-direction:column;
     box-sizing:border-box;
     padding-left:5px;
@@ -176,7 +177,7 @@ const StyledDiv = styled.div`
 const StyledDiv2 = styled.div`
     width:100%;
     display:flex;
-    aligh-items:center;
+    align-items:center;
     justify-content:center;
 `
 
@@ -184,6 +185,7 @@ const StyledDiv3 = styled.div`
     width:100%;
     display:flex;
     align-items:center;
+    padding-top:60px;
     justify-content:center;
     flex-direction:column;
 `
@@ -198,6 +200,7 @@ const StyledDiv4 = styled.div`
 
 const StyledP = styled.div`
     color:red;
-    font-family:Nunito;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;  color: #fff;
     font-size:13px;
 `

@@ -124,8 +124,8 @@ border: none;
   border-radius: 50px;
   background-color: #222222;
   font-size: 14px;
-  font-family: 'Nunito', sans-serif;
-  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;  color: #fff;
   :focus {
     outline: none;
   }`
@@ -148,8 +148,8 @@ const StyledImg = styled.img`
 `;
 
 const StyledH5 = styled.h5`
-  font-family: 'Nunito', sans-serif;
-  color: #ffffff;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;  color: #ffffff;
   font-size: 14px;
   text-align: center;
 `;

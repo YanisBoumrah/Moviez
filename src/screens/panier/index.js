@@ -59,35 +59,28 @@ const StyledDiv3 = styled.div `
 const TitrePanier = styled.h1`
   float:top;
   font-size: 30px;
-  font-family: 'Nunito', sans-serif ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   color: #fff;
   justify-content: center;
   @media (min-width: 40em) {
     font-size: 30px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
     color: #fff;
     justify-content: center;
     margin-right: -60px;
   }
 `
 const StyledP = styled.p`
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   color: #ffffff;
   font-size: 14px;
   text-align: center;
 `
 
-const DivGlobe = styled.div`
-  
-  margin-top : 100px;
-  @media (min-width: 40em) {
-  margin : 100px;
-  width : 40%;
-  height : auto;
-  background-color:#3D3939;
-  box-shadow:navy;
-  padding:1vw;}
-`
+
 const Grille = styled.div`
   max-width: auto;
   width: 100%;
@@ -152,12 +145,14 @@ const StyledImg = styled.img`
 
 const StyledBP = styled.p`
   font-size: 10px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   color: #fff;
   justify-content: center;
   @media (min-width: 40em) {
     font-size: 12px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
     color: #fff;
     justify-content: center;
   }

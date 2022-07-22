@@ -107,31 +107,31 @@ const SingInForm = () => {
                             <StyledDiv3>
                                 <StyledInput 
                                     type="text" 
-                                    placeholder="firstame"
+                                    placeholder="Firstame"
                                     value={firstname}
                                     onChange={(e)=>{setFirstName(e.target.value)}}
                                 ></StyledInput>
                                 <StyledInput 
                                     type="text" 
-                                    placeholder="lastname"
+                                    placeholder="Lastname"
                                     value={lastname}
                                     onChange={(e)=>{setLastname(e.target.value)}}
                                 ></StyledInput>
                                 <StyledInput 
                                     type="text" 
-                                    placeholder="username"
+                                    placeholder="Username"
                                     value={username}
                                     onChange={(e)=>{setUsername(e.target.value)}}
                                 ></StyledInput>
                                 <StyledInput 
                                     type="text" 
-                                    placeholder="email"
+                                    placeholder="Email"
                                     value={email}
                                     onChange={(e)=>{setEmail(e.target.value)}}
                                 ></StyledInput>
                                 <StyledInput 
                                     type="password" 
-                                    placeholder="password"
+                                    placeholder="Password"
                                     value={password}
                                     onChange={(e)=>{setPassword(e.target.value)}}
                                 ></StyledInput>
@@ -181,15 +181,15 @@ const MainContainer = styled.div`
 `
 
 const StyledImg = styled.img`
-     width:100px;
-     height:50px;
+     width:200px;
+     height:100px;
      margin-bottom:20px;
 `
 
 const FormContainer = styled.div`
     padding-top:30px;
-    width:300px;
-    height:400px;
+    width:350px;
+    height:500px;
     background:#3D3939;
     display:flex;
     justify-content:center;
@@ -204,7 +204,8 @@ const StyledInput = styled.input`
       border-radius:4px;
       margin-bottom:13px;
       border-style:none;
-      font-family:Nunito;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 `
 
 const StyledButton = styled.button`
@@ -222,7 +223,7 @@ const StyledDiv = styled.div`
     width:250px;
     height:100%;
     display:flex;
-    aligh-items:center;
+    align-items:center;
     flex-direction:column;
     box-sizing:border-box;
     padding-left:5px;
@@ -232,7 +233,7 @@ const StyledDiv = styled.div`
 const StyledDiv2 = styled.div`
     width:100%;
     display:flex;
-    aligh-items:center;
+    align-items:center;
     justify-content:center;
 `
 
@@ -240,6 +241,8 @@ const StyledDiv3 = styled.div`
     width:100%;
     display:flex;
     align-items:center;
+    padding-top:60px;
+
     justify-content:center;
     flex-direction:column;
 `
@@ -254,6 +257,7 @@ const StyledDiv4 = styled.div`
 
 const StyledP = styled.div`
     color:red;
-    font-family:Nunito;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
     font-size:13px;
 `

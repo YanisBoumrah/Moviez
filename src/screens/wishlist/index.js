@@ -69,7 +69,8 @@ const StyledD = styled.div`
 `;
 
  const StyledH5 = styled.h5`
-  font-family: "Roboto";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   color: #ffffff;
   font-size: 14px;
   text-align: center;
@@ -113,7 +114,8 @@ margin-top: auto;
 `;
 
 const StyledH1 = styled.h1`
-    font-family:Nunito;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
     color:#58DD94
 `
 

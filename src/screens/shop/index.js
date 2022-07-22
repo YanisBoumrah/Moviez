@@ -78,6 +78,9 @@ const OngletBtn = styled.div`
 const OngletNp = styled.div`
   width: 100%;
   height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
   background: ${(props) => (props.stateOnglets === 1 ? "#58DD94" : "#3D3939")};
   color: ${(props) => (props.stateOnglets === 1 ? "#fff" : "#58DD94")};
   display: flex;
@@ -90,6 +93,9 @@ const OngletNp = styled.div`
 const OngletUp = styled.div`
   width: 100%;
   height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
   background: ${(props) => (props.stateOnglets === 2 ? "#58DD94" : "#3D3939")};
   color: ${(props) => (props.stateOnglets === 2 ? "#fff" : "#58DD94")};
   display: flex;
@@ -101,6 +107,9 @@ const OngletUp = styled.div`
 const OngletP = styled.div`
   width: 100%;
   height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
   background: ${(props) => (props.stateOnglets === 3 ? "#58DD94" : "#3D3939")};
   color: ${(props) => (props.stateOnglets === 3 ? "#fff" : "#58DD94")};
   display: flex;
@@ -112,6 +121,9 @@ const OngletP = styled.div`
 const OngletTr = styled.div`
   width: 100%;
   height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
   background: ${(props) => (props.stateOnglets === 4 ? "#58DD94" : "#3D3939")};
   color: ${(props) => (props.stateOnglets === 4 ? "#fff" : "#58DD94")};
   display: flex;

@@ -61,7 +61,8 @@ height: auto;
 `;
 
 const StyledH5 = styled.h5`
-font-family: 'Nunito', sans-serif;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 color: #ffffff;
 font-size: 14px;
 text-align: center;
@@ -105,7 +106,8 @@ transition: 0.5s;
 `;
 
 const StyledH1 = styled.h1`
-  font-family:'Nunito', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   color:#58DD94
 `
 

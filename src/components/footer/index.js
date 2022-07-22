@@ -15,10 +15,8 @@ const Footer = () =>{
                 </StyledDiv3_1>
                 <StyledDiv3_2>
                     <StyledUl>
-                        <li>Yanis Bouzelha</li>
                         <li>Yanis Boumrah</li>
-                        <li>Yanis Djebara</li>
-                        <li>Rayan Sadaoui</li>  
+                        <li>Yanis Bouzelha</li>
                     </StyledUl>    
                 </StyledDiv3_2>
             </StyledDiv3>
@@ -82,18 +80,21 @@ const StyledImg = styled.img`
 `
 
 const StyledP1 = styled.p`
-     font-family: 'Nunito', sans-serif;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
      color:white;
      font-weight:bold;
 `
 const StyledP2 = styled.p`
-     font-family: 'Nunito', sans-serif;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
      color:#58DD94;
      font-weight:bold;
      font-size:17px;
 `
 const StyledUl = styled.ul`
-    font-family:Nunito;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
     color:white;
     font-weight:bold;
 `
@@ -102,3 +103,5 @@ const StyledHr = styled.hr`
     height:0px;
     width:100%;
 `
+
+

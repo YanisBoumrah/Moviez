@@ -301,11 +301,13 @@ const StyledSpanBurgerLine = styled.span`
 `
 
 const StyledP1 = styled.div`
-font-family:Nunito;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 color:#58DD94
 `
 const StyledP2 = styled.div`
-font-family:Nunito;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 color:white;
 font-weight:bold;
 `
